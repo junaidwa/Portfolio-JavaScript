@@ -16,6 +16,7 @@
   overflow: none;
   justify-content: space-between;
   box-shadow: 5px 2px 5px rgb(90, 89, 89);
+
 }
 .container .navbar .logo {
   width: 50%;
@@ -62,12 +63,12 @@ a:hover:after {
 .container .body {
   display: flex;
   justify-content: space-around;
+  flex-direction: row-reverse;
 }
 .container .body .about {
   height: 500px;
-  width: 600px;
-  /* border: 2px solid black; */
-
+  width: 700px;
+  border: 2px solid black;
   margin-top: 130px;
 }
 .container .body .about h1 {
@@ -75,11 +76,19 @@ a:hover:after {
   justify-content: center;
   margin-bottom: 30px;
   margin-top: 15px;
+  font-size: 40px;
+  margin-left: 19px;
 }
+/* .container .body .about  .icons i{
+  color: black;
+  font-size: 100px;
+} */
+
 .container .body .about p {
-  padding: 0 60px;
+  padding: 0 20px;
   margin-top: 80px;
   font-size: 20px;
+  
 }
 .container .body .about .learn {
   margin-left: 35%;
@@ -121,7 +130,6 @@ a:hover:after {
 .about h1 {
   position: fixed;
   margin-left: 60px;
-  
 }
 .about h1 span {
   margin-left: 10px;
@@ -174,7 +182,6 @@ a:hover:after {
   .about h1 {
     position: fixed;
     margin-left: 90px;
-    
   }
   .container .icon span i {
     display: block;
@@ -272,7 +279,7 @@ a:hover:after {
     height: 100vh;
     width: 100%;
   }
- /* .container .about h1 {
+  /* .container .about h1 {
     position: fixed;
     margin-left: 50px;
     
@@ -295,12 +302,11 @@ a:hover:after {
   .container .body {
     background-color: aliceblue;
   }
- .container .about h1 {
+  .container .about h1 {
     position: fixed;
     margin-left: 15px;
-    
   }
-  
+
   .container .body .about {
     height: 400px;
     width: 400px;
