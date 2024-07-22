@@ -67,8 +67,7 @@ a:hover:after {
 .container .body .about {
   height: 500px;
   width: 700px;
-  /* border: 2px solid black; */
-  margin-top: 130px;
+  margin-top: 170px;
 }
 .container .body .about h1 {
   display: flex;
@@ -184,15 +183,8 @@ a:hover:after {
 .container .icon-c {
   display: none;
 }
+
 @media screen and (max-width: 720px) {
-  .container body {
-    height: 100vh;
-    width: 100%;
-  }
-  .about h1 {
-    position: fixed;
-    margin-left: 1w50px;
-  }
   .container .icon span i {
     display: block;
     animation: zoomInOut 2s infinite ease-in-out;
@@ -209,22 +201,22 @@ a:hover:after {
     }
   }
 
-  .container {
-    height: 100vh;
-    width: 100%;
-    position: relative;
-  }
   .container .body {
-    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     background-color: aliceblue;
+    border: 2px solid black;
   }
   .container .body .about {
     margin-top: 20px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container .body .about h1 {
+    margin-left: 90px;
   }
 
   .container .body .pic {
@@ -251,7 +243,7 @@ a:hover:after {
   }
   .container .navbar .logo {
     position: absolute;
-    left: 5%;
+    left: 17%;
     top: 15%;
   }
   .container .navbar .logo .alphabet {
@@ -283,25 +275,27 @@ a:hover:after {
   .container .body {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
     background-color: aliceblue;
-    height: 100vh;
-    width: 100%;
   }
-  /* .container .about h1 {
-    position: fixed;
-    margin-left: 50px;
-    
-  } */
-  .container .body .about {
-    margin-top: 20px;
-    margin-left: 50px;
-  }
+
   .container .body .pic {
-    height: 250px;
-    width: 250px;
-    margin-left: 50px;
+    height: 300px;
+    width: 300px;
+    margin: 40px auto;
+  }
+  .container .body .about {
+    margin-top: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container .body .about .icons {
+    margin-left: 190px;
+  }
+  .container .body .about .learn {
+    margin-top: 10px;
+    margin-left: 150px;
   }
 }
 @media screen and (max-width: 1000px) and (min-width: 820px) {
@@ -318,25 +312,28 @@ a:hover:after {
   }
 
   .container .body .about {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 600px;
 
     padding: -15px 5px;
+  }
+  .container .body .about .icons {
+    margin-left: 80px;
   }
   .container .body .about p {
     padding: 0 15px;
   }
   .container .body .about .learn {
     margin-top: 12%;
+    margin-left: 230px;
   }
   .container .body .about .animated-text {
     margin-top: 10px;
   }
   .container .body .pic {
     border: 2px solid pink;
-    margin-top: 170px;
+    margin-top: 150px;
     height: 350px;
     width: 350px;
   }
 }
-w
