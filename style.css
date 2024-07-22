@@ -16,7 +16,6 @@
   overflow: none;
   justify-content: space-between;
   box-shadow: 5px 2px 5px rgb(90, 89, 89);
-
 }
 .container .navbar .logo {
   width: 50%;
@@ -68,7 +67,7 @@ a:hover:after {
 .container .body .about {
   height: 500px;
   width: 700px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin-top: 130px;
 }
 .container .body .about h1 {
@@ -79,16 +78,11 @@ a:hover:after {
   font-size: 40px;
   margin-left: 19px;
 }
-/* .container .body .about  .icons i{
-  color: black;
-  font-size: 100px;
-} */
 
 .container .body .about p {
   padding: 0 20px;
   margin-top: 80px;
   font-size: 20px;
-  
 }
 .container .body .about .learn {
   margin-left: 35%;
@@ -107,6 +101,22 @@ a:hover:after {
   margin-left: 10px;
   display: flex;
 }
+.about .icons {
+  margin-top: 70px;
+  margin-left: 130px;
+}
+.about .icons span img {
+  height: 40px;
+  width: 40px;
+  margin-left: 40px;
+  transition: all 0.3s linear;
+}
+.about .icons span img:hover {
+  transform: translateY(-5px);
+  transform: scale(1.1);
+  transition: all 0.3s linear;
+}
+
 .container .body .pic {
   height: 380px;
   width: 380px;
@@ -181,7 +191,7 @@ a:hover:after {
   }
   .about h1 {
     position: fixed;
-    margin-left: 90px;
+    margin-left: 1w50px;
   }
   .container .icon span i {
     display: block;
@@ -329,3 +339,4 @@ a:hover:after {
     width: 350px;
   }
 }
+w
